@@ -1,0 +1,17 @@
+{
+  "name": "atom-rsync",
+  "main": "./lib/atom-rsync",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationEvents": [
+    "atom-rsync:current-file"
+  ],
+  "repository": "https://github.com/wmeldon/atom-rsync",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "rsync": "git://github.com/WMeldon/node-rsync#cwd-option"
+  }
+}
